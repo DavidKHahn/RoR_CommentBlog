@@ -20,7 +20,8 @@ Things you may want to cover:
     ``guard init livereload`` Useful for reloading of browser automatically when changes are made
     ``bundle exec guard``
     ``rails g controller posts`` Creation of posts
-
+    ``rails g model Post title:string content:text``
+    ``rails db:migrate``
 * Database creation
 
 * Database initialization
