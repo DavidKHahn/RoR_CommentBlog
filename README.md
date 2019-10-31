@@ -10,11 +10,11 @@ Things you may want to cover:
 * System dependencies:
 
     **Guard is a command line tool to easily handle events on file system modifications.**
-    
+
     gem 'guard', '~> 2.15', '>= 2.15.1'
-    
+
     **Guard::LiveReload automatically reloads your browser when 'view' files are modified.**
-    
+
     gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
 * Configuration
@@ -26,7 +26,8 @@ Things you may want to cover:
     - ``rails g controller posts`` Creation of posts
     - ``rails g model Post title:string content:text``
     - ``rails db:migrate``
-    
+    - ``rails g migration AddPostIdToComments``
+
 * Database creation
 
 * Database initialization
