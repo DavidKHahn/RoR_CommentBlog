@@ -31,5 +31,5 @@
 
 * Deployment instructions: 
    - ``bundle``
-   -``rails s``
+   - ``rails s``
    
