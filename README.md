@@ -1,9 +1,4 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+# Ruby on Rails: Blog with comments demo
 
 * Ruby version: 2.6.5
 
@@ -24,20 +19,17 @@ Things you may want to cover:
     - ``guard init livereload`` Useful for reloading of browser automatically when changes are made
     - ``bundle exec guard``
     - ``rails g controller posts`` Creation of posts
+   
+* Database creation
     - ``rails g model Post title:string content:text``
-    - ``rails db:migrate``
-    - ``rails g migration AddPostIdToComments``
     - ``rake routes`` check routes
     - ``rails console`` -> ``@post = Post`` -> ``@post.connection`` -> ``@post.all`` -> ``@post = Post.find(8)`` -> ``@post`` -> ``@post.title = "this is a post updated from rails console"`` -> ``@post.save`` (updating database from CLI)
 
-* Database creation
-
 * Database initialization
+    - ``rails db:migrate``
+    - ``rails g migration AddPostIdToComments``
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment instructions: 
+   - ``bundle``
+   -``rails s``
+   
