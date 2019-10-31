@@ -27,6 +27,8 @@ Things you may want to cover:
     - ``rails g model Post title:string content:text``
     - ``rails db:migrate``
     - ``rails g migration AddPostIdToComments``
+    - ``rake routes`` check routes
+    - ``rails console`` -> ``@post = Post`` -> ``@post.connection`` -> ``@post.all`` -> ``@post = Post.find(8)`` -> ``@post`` -> ``@post.title = "this is a post updated from rails console"`` -> ``@post.save`` (updating database from CLI)
 
 * Database creation
 
