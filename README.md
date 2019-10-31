@@ -1,4 +1,4 @@
-# Ruby on Rails: Blog with comments demo
+## Ruby on Rails: Blog with Comment functionality
 
 * Ruby version: 2.6.5
 
